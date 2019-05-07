@@ -1,0 +1,18 @@
+<html>
+<body>
+<canvas id="canvas1" width="300" height="400"> </canvas>
+<script type="text/javascript">
+// 변수가 canvas가 캔버스를 참조하고, cx는 해당 그리기 컨텍스트
+// 패스 초기화
+     cx.beginPath();
+// 캔버스의 기준점으로 이동
+     cx.moveTo(0, 0);
+// 대각선 긋기
+     cx.lineTo(canvas.width, canvas.height);
+// 선을 출력
+     cx.stroke();
+
+</script>
+
+</body>
+</html>
